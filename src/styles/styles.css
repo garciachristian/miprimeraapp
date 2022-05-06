@@ -1,3 +1,58 @@
 h1 {
     color: brown;
+    padding-left: 25px;
 }
+
+p {
+    padding-left: 25px;
+}
+
+.header {
+    height: 60px;
+    width: 100%;
+    background: brown;
+    color: azure;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+li {
+    padding-right: 25px;
+    font: bold;
+    font-size: large;
+}
+
+.logo {
+    height: 48px;
+    width: 48px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: brown;
+    border: 1px solid grey;
+    transition-duration: 0.4s;
+  }
+
+  .button:hover {
+    background-color: rgb(220, 55, 55);
+    color: white;
+  } 
