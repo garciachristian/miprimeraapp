@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function CartIcon ({numprod}){
+export default function CartWidget ({numprod}){
     return(
         <div>
             <img src={require('./cart.png')} alt='logo'></img>
-            <div>Cantidad: {numprod}</div>
+            Cantidad: {numprod} productos
         </div>
     )
 }
