@@ -1,4 +1,5 @@
 import React from 'react';
+import CartIcon from '../CartIcon/CartIcon';
 
 export default function Navbar() {
     return (
@@ -12,7 +13,7 @@ export default function Navbar() {
                 <li><button class="button">Información</button></li>
                 <li><button class="button">Ayuda</button></li>
             </ul>
-
+        <CartIcon numprod={20}/>
         </header>
     );
 }
